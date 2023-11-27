@@ -1,0 +1,17 @@
+@media print {
+    #Bprint {
+        position: fixed;
+        transform: scale(1.1) translateX(100px)
+    }
+}
+body * {
+    visibility: hidden;
+}
+#Bprint, #Bprint * {
+    visibility: visible;
+}
+#Bprint {
+    position: absolute;
+    right: 180px;
+    top: 100px;
+}
